@@ -1,0 +1,95 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "VUTTR (Very Useful Tools to Remeber)",
+    "description": "This is a API from VUTTR. The application is a simple repository for managing tools with their respective names, links, descriptions and tags."
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "tags": [],
+  "schemes": [
+    "http"
+  ],
+  "securityDefinitions": {},
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/tools": {
+      "get": {
+        "tags": [
+          "Tool"
+        ],
+        "description": "Endpoint for a list of registered tools",
+        "parameters": [
+          {
+            "name": "tag",
+            "in": "query",
+            "description": "Find by Tag",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/tool": {
+      "post": {
+        "tags": [
+          "Tool"
+        ],
+        "description": "Endpoint to add a tool.",
+        "parameters": [
+          {
+            "name": "newTool",
+            "in": "body",
+            "description": "Informações da Ferramenta.",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Tool successfully registered!"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/tools/{id}": {
+      "delete": {
+        "tags": [
+          "Tool"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Tool ID."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {}
+}
