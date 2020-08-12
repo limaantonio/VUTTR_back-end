@@ -5,7 +5,8 @@ const doc = {
     title: 'VUTTR (Very Useful Tools to Remeber)',
     description: 'This is a API from VUTTR. The application is a simple repository for managing tools with their respective names, links, descriptions and tags.'
   },
-  host: "localhost:3000",
+  // host: "localhost:3000",
+  host: "https://deploy-vuttr.herokuapp.com/",
   schemes: ['http']
 }
 
