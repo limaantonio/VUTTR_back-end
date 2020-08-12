@@ -6,8 +6,8 @@ const doc = {
     description: 'This is a API from VUTTR. The application is a simple repository for managing tools with their respective names, links, descriptions and tags.'
   },
   // host: "localhost:3000",
-  host: "https://deploy-vuttr.herokuapp.com/",
-  schemes: ['http']
+  host: "deploy-vuttr.herokuapp.com",
+  schemes: ['https']
 }
 
 const outputFile = './src/swagger_output.json'
