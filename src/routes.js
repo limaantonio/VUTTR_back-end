@@ -39,7 +39,7 @@ routes.post('/tool',
 ToolController.create);
 
 
-routes.delete('/tools/:id', 
+routes.delete('/tool/:id', 
   
   /*  #swagger.tags = ['Tool']
         #swagger.parameters['id'] = {
