@@ -60,7 +60,7 @@ g
   * DELETE /tool:id :apaga uma tool de acordo com o id informado
 
   Documentação:
-  * GET /docs: rota para visualizar a documentação da API
+  * GET /doc: rota para visualizar a documentação da API
   
 ```
 
