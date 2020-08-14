@@ -6,7 +6,8 @@
 - [Sobre](#-Sobre)
 - [Tecnologias Utilizadas](#-tecnologias-Utilizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
-- [Rotas](#-exemplo-uso)
+- [Rotas](#-rotas)
+
 
 ## 🗒 Sobre
 
@@ -19,11 +20,11 @@ g
 
 ## 🚀 Tecnologias utilizadas
 
-- [NodeJS]('https://nodejs.org/en/')
+- [NodeJS](https://nodejs.org/en/')
 - [MongoDB](https://www.mongodb.com/')
-- [Jest]('https://jestjs.io/')
-- [Express]('https://expressjs.com/pt-br/')
-- [Swagger]('https://swagger.io/specification/')
+- [Jest](https://jestjs.io/')
+- [Express](https://expressjs.com/pt-br/')
+- [Swagger](https://swagger.io/specification/')
 
 
 ## 📦 Como baixar o projeto
@@ -57,6 +58,11 @@ g
   * GET /tools?tag="nome_tag": lista todas as tools de acordo com a tag informada 
   * POST /tool: cria uma nova tool
   * DELETE /tool:id :apaga uma tool de acordo com o id informado
+
+  Documentação:
+  * GET /docs: rota para visualizar a documentação da API
+  
 ```
+
 
 Desenvolvido por Antonio Carlos
