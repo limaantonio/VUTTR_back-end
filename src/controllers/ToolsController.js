@@ -34,7 +34,9 @@ module.exports = {
   async delete(request, response){
     const {id} = request.params;
     
-    const tool = await Tool.findOneAndDelete(id);
+    const tool = await Tool.findById(id);
+
+    await tool.deleteOne();
 
     return response.status(204).send();
   },
