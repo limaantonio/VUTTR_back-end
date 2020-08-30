@@ -6,8 +6,8 @@
 - [Sobre](#-Sobre)
 - [Tecnologias Utilizadas](#-tecnologias-Utilizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
-- [Rotas](#-rotas)
-- [Documentação da API](#-documentacao-da-api)
+- [Rotas](#-Rotas)
+- [Documentação da API](#-Documentação-da-API)
 
 
 ## 🗒 Sobre
@@ -66,7 +66,7 @@ g
 ```
 
 ## Documentação da API
-<a href="#">https://deploy-vuttr.herokuapp.com/doc/" <a/>
+<a href="#">https://deploy-vuttr.herokuapp.com/doc/ <a/>
 
 
 Desenvolvido por Antonio Carlos
