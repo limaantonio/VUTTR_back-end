@@ -7,6 +7,7 @@
 - [Tecnologias Utilizadas](#-tecnologias-Utilizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 - [Rotas](#-rotas)
+- [Documentação da API](#-documentacao-da-api)
 
 
 ## 🗒 Sobre
@@ -63,6 +64,9 @@ g
   * GET /doc: rota para visualizar a documentação da API
   
 ```
+
+## Documentação da API
+<a href="https://deploy-vuttr.herokuapp.com/doc/" />
 
 
 Desenvolvido por Antonio Carlos
