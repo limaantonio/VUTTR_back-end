@@ -66,7 +66,7 @@ g
 ```
 
 ## Documentação da API
-<a href="https://deploy-vuttr.herokuapp.com/doc/" />
+<a href="#">https://deploy-vuttr.herokuapp.com/doc/" <a/>
 
 
 Desenvolvido por Antonio Carlos
