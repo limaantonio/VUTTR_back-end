@@ -16,7 +16,7 @@
 
 O **Vuttr API** é uma aplicação back-end para um 
 aplicativo que é um repositório simples para gerenciamento de ferramentas com seus respectivos nomes, links, descrições e tags.  Essa API foi desenvolvida para o desafio da **BossaBox**.
-g
+
 ---
 
 ## 🚀 Tecnologias utilizadas
